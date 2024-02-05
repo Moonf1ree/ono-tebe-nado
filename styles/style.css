@@ -1,1 +1,19 @@
-/* место для вашего кода */
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  min-width: 1340px;
+  margin-left: 51px;
+  margin-top: 92px;
+}
+header > nav > ul > li {
+  display: inline;
+  border-bottom: 1px solid black;
+}
+a:focus {
+  border: none;
+}
+.li__mg {
+  margin-left: 13px;
+}
