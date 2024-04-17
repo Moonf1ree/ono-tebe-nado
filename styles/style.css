@@ -43,6 +43,7 @@ nav {
 address {
   line-height: 24px;
 }
+
 .cover {
   background: url("/images/cover.jpg") center center / cover no-repeat;
 }
@@ -71,19 +72,22 @@ address {
 .aligned-text_center {
   display: block;
   text-align: center;
-  padding-right: 100px;
+  padding-right: 50px;
 }
 .aligned-text_right {
   display: block;
   text-align: end;
+  padding-right: 20px;
 }
 .aligned-text_margin {
-  margin-top: 10px;
+  margin-top: 3px;
 }
 .letter__top {
   margin-left: 30px;
 }
 .letter__mid {
+  position: relative;
+  right: 25px;
 }
 .letter__bottom {
   margin-right: 30px;
@@ -203,9 +207,11 @@ address {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 200px;
+  margin-top: 235px;
+  margin-left: 41px;
   gap: 72px;
 }
+
 .about__logo {
   display: flex;
   flex-shrink: 0;
@@ -218,15 +224,15 @@ address {
   border-radius: 50%;
 }
 .about__logo-image {
-  width: 60%;
-  height: 60%;
+  width: 61.5%;
+  height: 61.5%;
 }
 .about__text-full {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   flex-grow: 1;
-  margin-top: 90px;
+  margin-top: 100px;
 }
 .about__title {
   font-size: 40px;
@@ -243,11 +249,11 @@ address {
 .footer {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  margin-top: 180px;
-  width: 1100px;
-  gap: 180px;
-  margin-bottom: 88px;
+  justify-content: space-between;
+  margin-top: 175px;
+  margin-left: 80px;
+  width: 990px;
+  margin-bottom: 100px;
 }
 
 .footer__menu-list {
