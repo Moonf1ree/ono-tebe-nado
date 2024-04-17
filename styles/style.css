@@ -247,9 +247,7 @@ adress {
 .footer__menu-link_active {
   text-decoration: none;
 }
-a:focus {
-  text-decoration: none;
-}
+
 .footer__social-list-item {
   list-style-type: none;
   width: 48px;
