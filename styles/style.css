@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   min-width: 1052px;
-  margin-left: 24px;
-  margin-top: 92px;
-  margin-bottom: 96px;
+  margin-left: 15px;
+  margin-top: 95px;
+  margin-bottom: 90px;
 }
 .header__link_active {
   text-decoration: none;
@@ -15,6 +15,11 @@ a:focus {
 ul {
   list-style-type: circle;
 }
+
+li:first-child {
+  list-style: none;
+  margin-left: 2px;
+}
 li {
   float: left;
 }
@@ -23,11 +28,14 @@ li {
   margin-left: 40px;
 }
 .logo__black {
-  width: 150px;
-  margin-left: 50px;
+  width: 135px;
+  margin-left: 40px;
 }
 nav {
   margin-left: 25px;
+}
+.nav__list {
+  font-weight: 500;
 }
 .header__address {
   margin-left: 195px;
@@ -45,17 +53,17 @@ address {
   height: 100%;
   width: 100%;
   z-index: 10;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   padding-bottom: 9px;
 }
 
 .section__text {
-  padding-top: 178px;
+  padding-top: 168px;
   padding-left: 50px;
   font-size: 100px;
   text-transform: uppercase;
   color: white;
-  letter-spacing: 40px;
+  letter-spacing: 30px;
 }
 .aligned-text {
   display: block;
@@ -73,10 +81,9 @@ address {
   margin-top: 10px;
 }
 .letter__top {
-  margin-left: 10px;
+  margin-left: 30px;
 }
 .letter__mid {
-  margin-left: 10px;
 }
 .letter__bottom {
   margin-right: 30px;
@@ -84,16 +91,17 @@ address {
 
 .cover__description {
   display: flex;
-  padding-top: 147px;
-  padding-left: 58px;
+  padding-top: 115px;
+  padding-left: 80px;
   color: white;
+  margin-bottom: 40px;
   align-items: baseline;
 }
 .cover__description-text {
   font-size: 22px;
   font-weight: 400;
   text-transform: uppercase;
-  word-spacing: 24px;
+  word-spacing: 18.05px;
 }
 .bet-button {
   border: 1px solid white;
@@ -102,6 +110,8 @@ address {
   background-color: rgba(0, 0, 0, 0);
   font-size: 22px;
   text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.01em;
   color: white;
   font-weight: 500;
 }
