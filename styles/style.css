@@ -256,6 +256,8 @@ address {
   margin-bottom: 110px;
 }
 .footer__address {
+  display: flex;
+  flex-direction: column;
   font-style: normal;
   margin-left: -10px;
 }
